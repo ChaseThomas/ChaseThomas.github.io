@@ -1,0 +1,22 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family: Sans-Serif;
+    color: #333;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+    font-family: Helvetica;
+}
