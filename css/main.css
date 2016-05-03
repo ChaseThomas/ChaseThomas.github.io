@@ -10,7 +10,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 1em;
     font-family: Sans-Serif;
     color: #333;
 }
@@ -19,4 +19,10 @@ p {
     line-height: 1.4em;
     color: #333;
     font-family: Helvetica;
-} 
+}
+
+.social-icons {
+  color: #333;
+  letter-spacing: 30px;
+  text-align: center;
+}
