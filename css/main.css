@@ -1,20 +1,18 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background: url(https://raw.githubusercontent.com/ChaseThomas/ChaseThomas.github.io/master/resources/background.png);
+    background: url(../resources/background.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+#portrait {
+    border-radius: 130px;
 }
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
     font-size: 60px;
     font-family: Sans-Serif;
@@ -30,5 +28,10 @@ p {
 .social-icons {
     color: #333;
     letter-spacing: 30px;
-    text-align: center;
+    position: absolute;
+    left: 35%;
+}
+
+.social-icons:hover {
+    color: white;
 }
