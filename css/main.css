@@ -28,9 +28,10 @@ p {
 .social-icons {
     color: #333;
     letter-spacing: 30px;
-    position: absolute;
-    left: 35%;
-}
+    position: fixed;
+    margin: 0 auto;
+    left: 35px;
+    right: 0;}
 
 .social-icons:hover {
     color: white;
