@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
+    max-width: 650px;
 }
 
 #portrait {
@@ -33,6 +34,8 @@ p {
     left: 35px;
     right: 0;}
 
-.social-icons:hover {
-    color: white;
+.fa:hover {
+    color: #adadad;
+    transition: .5s;
+
 }
