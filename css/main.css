@@ -29,10 +29,9 @@ p {
 .social-icons {
     color: #333;
     letter-spacing: 30px;
-    position: fixed;
-    margin: 0 auto;
-    left: 35px;
-    right: 0;}
+    margin-left: 35px;
+    margin-right: 0;
+}
 
 .fa:hover {
     color: #adadad;
