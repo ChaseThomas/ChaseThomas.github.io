@@ -33,6 +33,16 @@ p {
     margin-right: 0;
 }
 
+a{
+    color: #0000b5;
+}
+
+a:hover{
+    color: #adadad;
+    transition: .5s;
+    }
+
+
 .fa:hover {
     color: #adadad;
     transition: .5s;
