@@ -40,10 +40,16 @@ a{
 a:hover{
     color: #adadad;
     transition: .5s;
-    }
+}
 
 
-.fa:hover {
+.fab:hover {
+    color: #adadad;
+    transition: .5s;
+
+}
+
+.fas:hover {
     color: #adadad;
     transition: .5s;
 
