@@ -1,13 +1,16 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-    background: url(../resources/background.png);
+    background: url(../resources/270background.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.welcome {
     text-align: center;
     max-width: 650px;
+    margin: 60px auto;
+    width: 70%;
 }
 
 #portrait {
@@ -19,6 +22,7 @@ h1 {
     font-family: Sans-Serif;
     color: #333;
 }
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -33,24 +37,21 @@ p {
     margin-right: 0;
 }
 
-a{
+a {
     color: #0000b5;
 }
 
-a:hover{
+a:hover {
     color: #adadad;
     transition: .5s;
 }
-
 
 .fab:hover {
     color: #adadad;
     transition: .5s;
-
 }
 
 .fas:hover {
     color: #adadad;
     transition: .5s;
-
 }
