@@ -6,6 +6,7 @@ body {
     background-attachment: fixed;
 }
 
+
 .welcome {
     text-align: center;
     max-width: 650px;
@@ -33,9 +34,35 @@ p {
 .social-icons {
     color: #333;
     letter-spacing: 30px;
-    margin-left: 35px;
+    padding-left: 30px;
     margin-right: 0;
+    margin-bottom: 24px
 }
+
+
+.myButton {
+	background-color:transparent;
+	border-radius:11px;
+	border:4px solid #333333;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Helvetica;
+	font-size:1.5em;
+	padding:11px 19px;
+	text-decoration:none;
+}
+.myButton:hover {
+    background-color:transparent;
+    color: #adadad;
+    border:4px solid #adadad;
+    transition: .5s;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 
 a {
     color: #0000b5;

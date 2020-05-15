@@ -7,42 +7,110 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
 
-    <body class="container">
-        <div style="margin: 60px auto;">
+    <body class="container" >
+        <div style="margin: 60px auto; display: none;" id="portfolio">
             <div class="row">
+                <a id="back" href="\"><i class="small material-icons">arrow_back</i></a>
 
-                <!-- <div class="card col s12 m4">
-                    <div class="card-image">
-                        <img src="resources/class.jpg">
-                        <span class="card-title">Intro Machine Learning Course</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Some Info</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="https://cornellsun.com/2017/04/13/undergrad-led-course-crushes-enrollment-expectations/">Article 1</a>
-                    </div>
-                    <div class="card-action">
-                        <a href="https://cornellsun.com/2017/01/24/cornell-data-science-launches-student-led-training-course-in-statistical-methods-programming-languages/">Article 2</a>
-                    </div>
-                </div> -->
-                <div class="card col s12 m4">
+                <div class="col s12 cards-container"">
+
+                    <!-- <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="resources/class.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Intro Machine Learning Course<i class="material-icons right">more_vert</i></span>
-                        <p><a href="https://cornellsun.com/2017/04/13/undergrad-led-course-crushes-enrollment-expectations/">Article 1</a></p>
-                        <!-- <p><a href="https://cornellsun.com/2017/01/24/cornell-data-science-launches-student-led-training-course-in-statistical-methods-programming-languages/">Article 2</a></p> -->
+                        <span class="card-title activator grey-text text-darken-4 nowrap">Intro Machine Learning Course<i class="material-icons right">more_vert</i></span>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <span class="card-title grey-text text-darken-4 nowrap">Intro Machine Learning Course<i class="material-icons right">close</i></span>
+                        <p>Co-created and taught an accredited class on campus. Designed for any major to get experience and learn how make models in their own fields. You can read more <a href="https://cornellsun.com/2017/04/13/undergrad-led-course-crushes-enrollment-expectations/">here</a> or <a href="https://cornellsun.com/2017/01/24/cornell-data-science-launches-student-led-training-course-in-statistical-methods-programming-languages/">here.</a></p>
+
                     </div>
+                
+                    </div> -->
+                    
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="resources/class.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title">Intro Machine Learning Course</span>
+                        <p>I co-created and taught an accredited class on campus. Designed for any major to get experience and learn how make models in their own fields. You can read more <a href="https://cornellsun.com/2017/04/13/undergrad-led-course-crushes-enrollment-expectations/">here</a> or <a href="https://cornellsun.com/2017/01/24/cornell-data-science-launches-student-led-training-course-in-statistical-methods-programming-languages/">here.</a></p>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="resources/defender.png">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title">Pending Patent</span>
+                          <p>Designed and made an ML powered screener that flags false positive cybsecurity alerts. Designed for APT attacks, typically from nation states. </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="resources/coursegrab.png">
+                          <a href="https://coursegrab.cornellappdev.com"  target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"> link</i></a>
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title">CourseGrab</span>
+                          <p>Webapp to help students get spots in full courses they need to graduate. Article <a href="https://cornellsun.com/2020/02/13/new-coursegrab-app-set-to-launch-by-fall-semester-pre-enroll/">here.</a></p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="resources/speaking.jpg">
+                          <a href="https://cornelldata.science"  target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"> link</i></a>
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title">Cornell Data Science</span>
+                          <p>I was president of a ~60 person team that published papers,  consulted for businesses, competed online, and ran educational programs on campus.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="resources/kaggle.png">
+                          <a href="https://www.microsoft.com/security/blog/2018/12/13/microsoft-ai-competition-explores-the-next-evolution-of-predictive-technologies-in-security/"  target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"> link</i></a>
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title">Research Competition</span>
+                          <p>I designed and created a Kaggle competition for the Microsoft Defender research team. Check out the competition <a href="https://www.kaggle.com/c/microsoft-malware-prediction">here</a> or the red link above for my blog post on it.</p>
+                        </div>
+                    </div>
+                  
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="resources/parachute.jpg">
+                        <a href="https://www.youtube.com/watch?v=uIi2zr-BiKA"  target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"> link</i></a>
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title">Last Call A Cappella</span>
+                      
+                      </div>
+                  </div>
+
+                    <!-- <div class="card">
+                        <div class="card-image">
+                          <img src="resources/name.jpg">
+                          <a href="link"  target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"> link</i></a>
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title">title</span>
+                          <p>description</p>
+                        </div>
+                    </div> -->
+
                 </div>
+            </div>
             </div>
 
             <script type="text/javascript" src="js/materialize.min.js"></script>
+            <script type="text/javascript" src="resources/jquery-3.1.0.min.js"></script>
+            <script type="text/javascript" src="js/main.js"></script>
     </body>
 
     </html>
