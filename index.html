@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Preload critical resources -->
-    <link rel="preload" href="resources/portrait.jpg" as="image">
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/main.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- opengraph metadata -->
     <meta property='og:title' content='Chase Thomas'/>
@@ -38,11 +36,7 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-166754489-1', {'send_page_view': false});
-    // Delay analytics to improve initial page load
-    setTimeout(function() {
-        gtag('event', 'page_view');
-    }, 1000);
+    gtag('config', 'UA-166754489-1');
     </script>
     <!-- end tracking -->
 </head>
@@ -52,7 +46,7 @@
 
         <div id="page_effect" style="display:none;">
             <!-- this content is hide, need jQuery to fade in -->
-            <img id="portrait" src="resources/portrait.jpg" alt="Chase Thomas" height="250" width="250" loading="eager">
+            <img id="portrait" src="resources/portrait.jpg" alt="Chase Thomas" height="250" width="250">
             <h1>Chase Thomas</h1>
             <p>Currently product at <a style="text-decoration: none; " href='https://schmidtfutures.com/'>Schmidt Futures</a>. Previously done ML and cybersecurity work. I also <a style="text-decoration: none; " href='https://www.youtube.com/watch?v=uIi2zr-BiKA'>sing.</a>
             </p>
